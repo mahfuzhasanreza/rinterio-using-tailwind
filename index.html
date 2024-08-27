@@ -125,45 +125,57 @@
     <!-- main section  -->
     <main>
         <!-- about us section  -->
-        <section class="hero bg-base-200 py-20">
-            <div class="hero-content flex-col lg:flex-row-reverse">
+        <section class="hero bg-base-200 py-16 md:py-20">
+            <div class="hero-content flex-col-reverse lg:flex-row-reverse">
                 <img src="./assets/Rectangle.png" class="max-w-full rounded-lg mt-8" />
                 <div class="space-y-4">
-                    <div class="mr-6 relative">
+                    <div class="mr-6 relative hidden md:block">
                         <img class="absolute bottom-0 -left-10" src="./assets/Vector.png" alt="">
                     </div>
-                    <button class="rounded-full gap-3 btn bg-white px-6 py-0">
-                        <i class="text-black fa-solid fa-arrow-right text-xl text-center content-center"></i>
-                        About Us
-                    </button>
+                    <div class="flex md:block justify-center">
+                        <button class="rounded-full gap-3 btn bg-white px-6 py-0">
+                            <i class="text-black fa-solid fa-arrow-right text-xl text-center content-center"></i>
+                            About Us
+                        </button>
+                    </div>
 
-                    <h1 class="text-5xl font-extrabold">We design thoughtful, liveable spaces</h1>
 
-                    <p class="py-6">
+                    <h1 class="text-center md:text-start text-3xl md:text-5xl font-extrabold">We design thoughtful,
+                        liveable spaces
+                    </h1>
+
+                    <p class="text-center md:text-start text-gray-600 py-6">
                         The barn house captivates with its blend of rustic charm and
                         modern sophistication, featuring weathered wood, sleek metal accents.
                     </p>
 
                     <!-- about us - card 1 -->
-                    <div class="mr-10 card card-side bg-base-100">
-                        <figure>
-                            <img class="w-full ml-6" src="./assets/commercial.png" alt="" />
-                        </figure>
-                        <div class="card-body">
-                            <h2 class="card-title">Commercial</h2>
-                            <p class="text-gray-500">The barn house captivates with its blend <br>of rustic charm and
-                                modern.</p>
+                    <div class="flex lg:block justify-center items-center">
+                        <div class="mr-0 lg:mr-10 card card-side bg-base-100 w-11/12">
+                            <figure>
+                                <img class="w-full ml-6" src="./assets/commercial.png" alt="" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Commercial</h2>
+                                <p class="text-gray-500">The barn house captivates with its blend <br>of rustic charm
+                                    and
+                                    modern.</p>
+                            </div>
                         </div>
                     </div>
+
                     <!-- about us - card 2 -->
-                    <div class="mr-10 card card-side bg-base-100">
-                        <figure>
-                            <img class="w-full ml-6" src="./assets/residential.png" alt="" />
-                        </figure>
-                        <div class="card-body">
-                            <h2 class="card-title">Residential</h2>
-                            <p class="text-gray-500">The barn house captivates with its blend <br>of rustic charm and
-                                modern.</p>
+                    <div class="flex lg:block justify-center items-center">
+                        <div class="mr-0 lg:mr-10 card card-side bg-base-100 w-11/12">
+                            <figure>
+                                <img class="w-full ml-6" src="./assets/residential.png" alt="" />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title">Residential</h2>
+                                <p class="text-gray-500">The barn house captivates with its blend <br>of rustic charm
+                                    and
+                                    modern.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
